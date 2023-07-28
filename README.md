@@ -18,13 +18,20 @@ BMI Categories
 The BMI ranges are categorized as follows:
 
 Underweight: BMI less than 18.5
+
 Normal Weight: BMI between 18.5 and 24.9
+
 Overweight: BMI between 25 and 29.9
+
 Obesity (Class 1): BMI between 30 and 34.9
+
 Obesity (Class 2): BMI between 35 and 39.9
+
 Extreme Obesity (Class 3): BMI 40 and above
 
 Technologies Used
 HTML
+
 CSS/BOOTSTRAP
+
 JavaScript
