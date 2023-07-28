@@ -28,6 +28,7 @@
                         <input type="number" name="" id="bmivalue" class=form-control>
                     </div>
                     <div>
+                        <p id="bmicategory"></p>
                         <button type="button" class="btn btn-success" onclick="getbmivalue()">Check BMI</button>
                     </div>
                 </form>
@@ -37,27 +38,7 @@
     </div>
 
 
-    <!--<script src="script.js"></script>-->
-    <script>
-
-    function getbmivalue(){
-        let weight = document.getElementById('weight').value;
-        let height = document.getElementById('height').value;
-
-        height = height * 12;
-        height = height * 0.025; // convert height from feet to meters
-
-        let newbmivalue = weight / (height * height);
-
-        // Round the BMI value to a whole number
-        newbmivalue = Math.round(newbmivalue);
-
-        document.getElementById('bmivalue').value = newbmivalue;
-
-        // Prevent form submission
-        return false;
-    }
-    </script>
+    <script src="script.js"></script>
 
 
 
